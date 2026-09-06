@@ -1,0 +1,58 @@
+# =====================================================
+# Environment variables — all variants (Groq, Sarvam, etc.)
+# =====================================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# =====================================================
+# Python
+# =====================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# =====================================================
+# Databases
+# =====================================================
+database/
+*.db
+*.sqlite
+*.sqlite3
+
+# =====================================================
+# Node / frontend (if this backend folder sits next to a React app)
+# =====================================================
+node_modules/
+dist/
+build/
+
+# =====================================================
+# IDE / OS
+# =====================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================================================
+# Logs
+# =====================================================
+*.log
